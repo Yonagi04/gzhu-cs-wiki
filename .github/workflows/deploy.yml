@@ -53,34 +53,20 @@ jobs:
           path: ./docs/.vitepress/dist
 
   # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   name: Deploy
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
   deploy:
-    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
-          path: ./docs/.vitepress/dist
-      - name: Deploy to Github Pages
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git clone --depth=1 --branch=main https://github.com/GZHU-CS-Wiki/gzhu-cs-wiki.github.io.git out
-          rsync -av --delete ./docs/.vitepress/dist/ out/
-          cd out
-          git add .
-          git commit -m 'Deploy to GitHub Pages'
-          git push origin main
+          name: ./docs/.vitepress/dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
