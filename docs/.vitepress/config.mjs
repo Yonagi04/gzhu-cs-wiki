@@ -5,6 +5,8 @@ export default defineConfig({
   title: "GZHU CS Wiki",
   description: "广大计算机学习指南",
 
+  base: '/gzhu-cs-wiki/',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo/favicon.png',
