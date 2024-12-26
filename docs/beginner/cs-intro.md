@@ -70,4 +70,4 @@
 
 当然，对于低年级的同学而言，无需为此焦虑。只要从现在开始努力，大四还是有机会冲进大厂的。
 
-![](/images/qunchuwolao.jpg)
+![](/images/beginner/qunchuwolao.jpg)
