@@ -1,1 +1,22 @@
-# Linux的安装与基本使用
+# Linux 的安装与基本使用
+
+Linux 是一种自由和开放源码的类 UNIX 操作系统。为什么要学习 Linux 呢？
+
+1. 课程需要。部分课程的 Project 就是在 Linux 环境下进行开发的。
+2. 工作需要。后端开发、SRE需要长期使用 Linux 操作系统。
+3. 个人需要。搭建网站、搭建个人网盘，如果需要购买云服务器的话，一般也是 Linux 操作系统。
+
+那么如何安装 Linux 操作系统呢？
+
+对于 Linux 操作系统的安装，有两种方式：一种是双系统，一种则是虚拟机安装。我不推荐小白们直接搞双系统，搞虚拟机会更保险一点。
+
+虚拟机安装步骤大致如下：首先我们需要安装虚拟机软件 VMWare，然后获取 Linux 系统的镜像，然后在 VMWare 安装 Linux，这样就完成了安装。
+
+看起来很简单，但是对于小白而言，每一步都有可能踩坑。这里给一个参考教程：https://blog.csdn.net/weixin_52799373/article/details/140797573，但是里面的 Linux 系统镜像和 VMWare 给的是网盘地址，疑似有推广嫌疑，所以这里我直接给地址：
+
++ Linux 系统镜像：https://www.centos.org/download/
++ VMWare：请参考此Blog，VMWare被博通收购后下载变得更加复杂了。https://www.mikeroysoft.com/post/download-fusion-ws/
+
+---
+
+当顺利安装好 Linux 之后，就应该开始学习 Linux 系统的使用了。Linux 的教程有很多，光B站就有一大堆，但是强烈建议通过实操进行学习。我大一的时候为了搭QQ机器人，买了一台云服务器，搭机器人的同时顺带就学习了 Linux……也算是需求促进学习吧！
