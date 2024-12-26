@@ -132,8 +132,5 @@ dist
 # vitepress cache
 docs/.vitepress/cache
 
-# npm package-lock
-package-lock.json
-
 # Jetbrain
 .idea/
