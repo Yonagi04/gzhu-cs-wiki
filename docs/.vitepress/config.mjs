@@ -43,10 +43,12 @@ export default defineConfig({
       },
       {
         text: '📚好书推荐',
-        link: '/books/'
+        items: [
+          { text: '好书推荐', link: '/books/books'}
+        ]
       },
       {
-        text: '📝学科基础课程',
+        text: '📝学科课程',
         collapsed: true,
         items: [
           { text: '数学', link: '/courses/math' },
@@ -64,11 +66,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GZHU-CS-Wiki/gzhu-cs-wiki' }
+      { icon: 'github', link: 'https://github.com/Yonagi04/gzhu-cs-wiki' }
     ],
 
     footer: {
-      message: 'Released under the <a href="https://github.com//GZHU-CS-Wiki/gzhu-cs-wiki/blob/main/LICENSE">CC BY-NC-SA 4.0 License</a>',
+      message: 'Released under the <a href="https://github.com//Yonagi04/gzhu-cs-wiki/blob/main/LICENSE">CC BY-NC-SA 4.0 License</a>',
       copyright: 'Copyright © 2024-present GZHU-CS-Wiki'
     },
 
