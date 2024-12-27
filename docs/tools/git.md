@@ -42,7 +42,7 @@ apt-get install git
 
 ~~~bash
 git config --global user.name "your name"
-git config --global user.email urmail@ur.mail
+git config --global user.email yourmail@ur.mail
 ~~~
 
 ---
@@ -50,3 +50,5 @@ git config --global user.email urmail@ur.mail
 到此为止你就已经安装并配置好 Git 了，接下来就可以开始简单的学习一下 Git 的基本操作了。
 
 参考教程：[尚硅谷 Git 教程](https://www.bilibili.com/video/BV1vy4y1s7k6)
+
+为了检验自己的学习成果，你可以在学习完 Git 之后，每次做课设或者项目，都要求自己必须使用 Git 做版本管理，无论老师是否有要求……相信我，用的多了，自然就会了。
