@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Linux', link: '/tools/linux' },
           { text: 'Markdown', link: '/tools/markdown' },
           { text: 'LaTeX', link: '/tools/latex' },
+          { text: 'Vim', link: '/tools/vim' },
           { text: 'Docker', link: '/tools/docker' },
           { text: 'GPT', link: '/tools/gpt' },
           { text: '好用软件推荐', link: '/tools/software' }
@@ -43,6 +44,7 @@ export default defineConfig({
       },
       {
         text: '📚好书推荐',
+        collapsed : true,
         items: [
           { text: '好书推荐', link: '/books/books'}
         ]
@@ -61,6 +63,80 @@ export default defineConfig({
           { text: '数据库', link: '/courses/database' },
           { text: '软件工程', link: '/courses/software-engineering' },
           { text: '分布式系统', link: '/courses/distributed-system' },
+        ]
+      },
+      {
+        text: '🏅学科竞赛',
+        collapsed: true,
+        items: [
+          { text: 'ACM', link: '/contests/acm' },
+          { text: 'CTF', link: '/contests/ctf' }
+        ]
+      },
+      {
+        text: '🧑‍💻后端开发',
+        collapsed: true,
+        items: [
+          { text: '后端开发入门', link: '/backend/beginner' },
+          { 
+            text: 'Java', 
+            collapsed: false,
+            items: [
+              { text: 'Java基础', link: '/backend/java/basic' },
+              { text: 'Java提高', link: '/backend/java/improve' },
+              { text: 'Java进阶', link: '/backend/java/advanced' }
+            ] 
+          },
+          {
+            text: 'Go', 
+            collapsed: false,
+            items: [
+              { text: 'Go基础', link: '/backend/go/basic' },
+              { text: 'Go提高', link: '/backend/go/improve' },
+              { text: 'Go进阶', link: '/backend/go/advanced' }
+            ] 
+          }
+        ]
+      },
+      {
+        text: '👩‍💻前端开发',
+        collapsed: true,
+        items: [
+          { text: '前端开发入门', link: '/frontend/beginner' },
+          { text: '前端开发基础', link: '/frontend/basic' },
+          { text: 'Vue技术栈', link: '/frontend/vue' },
+          { text: 'React技术栈', link: '/frontend/react' }
+        ]
+      },
+      {
+        text: '🧑‍🔬科研入门',
+        collapsed: true,
+        items: [
+          { text: '科研入门', link: '/research/research' }
+        ]
+      },
+      {
+        text: '👷工作经验',
+        collapsed: true,
+        items: [
+          { text: '如何找工作？', link: '/experience/job' },
+          { text: '如何写简历？', link: '/experience/cv' },
+          { text: '面试经验', link: '/experience/interview' }
+        ]
+      },
+      {
+        text: '💯考研考公经验',
+        collapsed : true,
+        items: [
+          { text: '考研入门', link: '/exam/graduate' },
+          { text: '考公入门', link: '/exam/civil-servant' }
+        ]
+      },
+      {
+        text: '🏃‍♂️留学指南',
+        collapsed: true,
+        items: [
+          { text: '留学入门', link: '/abroad/abroad' }
         ]
       }
     ],

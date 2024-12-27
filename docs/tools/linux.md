@@ -12,7 +12,7 @@ Linux 是一种自由和开放源码的类 UNIX 操作系统。为什么要学�
 
 虚拟机安装步骤大致如下：首先我们需要安装虚拟机软件 VMWare，然后获取 Linux 系统的镜像，然后在 VMWare 安装 Linux，这样就完成了安装。
 
-看起来很简单，但是对于小白而言，每一步都有可能踩坑。这里给一个参考教程：https://blog.csdn.net/weixin_52799373/article/details/140797573，但是里面的 Linux 系统镜像和 VMWare 给的是网盘地址，疑似有推广嫌疑，所以这里我直接给地址：
+看起来很简单，但是对于小白而言，每一步都有可能踩坑。这里给一个参考教程：https://blog.csdn.net/weixin_52799373/article/details/140797573 ，但是里面的 Linux 系统镜像和 VMWare 给的是网盘地址，有推广嫌疑，所以这里我直接给地址：
 
 + Linux 系统镜像：https://www.centos.org/download/
 + VMWare：请参考此Blog，VMWare被博通收购后下载变得更加复杂了。https://www.mikeroysoft.com/post/download-fusion-ws/
@@ -20,3 +20,7 @@ Linux 是一种自由和开放源码的类 UNIX 操作系统。为什么要学�
 ---
 
 当顺利安装好 Linux 之后，就应该开始学习 Linux 系统的使用了。Linux 的教程有很多，光B站就有一大堆，但是强烈建议通过实操进行学习。我大一的时候为了搭QQ机器人，买了一台云服务器，搭机器人的同时顺带就学习了 Linux……也算是需求促进学习吧！
+
+本着“花钱不如白嫖”的原则，如果能白嫖一台云服务器就更好了。非常幸运的是，阿里云真的给了大学生们白嫖的机会。阿里云从2023年开始开启了一个“高校计划”，大学生每年都能白嫖一张300块钱的代金券，正好能买一台云服务器。
+
+去年我写过一篇这样的Blog，发布在了CSDN，链接贴在这里：[三岁小孩都能看懂！简单的WordPress建站指南](https://blog.csdn.net/qq_73142349/article/details/134222909)
