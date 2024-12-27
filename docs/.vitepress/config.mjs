@@ -109,6 +109,16 @@ export default defineConfig({
         ]
       },
       {
+        text: '👨‍💻其他开发方向',
+        collapsed: true,
+        items: [
+          { text: '前言', link: '/other/other' },
+          { text: '移动端开发', link: '/other/mobile' },
+          { text: '游戏客户端开发', link: '/other/game' },
+          { text: '测试开发/软件测试', link: '/other/test' },
+        ]
+      },
+      {
         text: '🧑‍🔬科研入门',
         collapsed: true,
         items: [
