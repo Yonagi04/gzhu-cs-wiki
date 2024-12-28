@@ -53,6 +53,7 @@ export default defineConfig({
         text: '📝学科课程',
         collapsed: true,
         items: [
+          { text: '如何应对考试？', link: '/courses/exam' },
           { text: '数学', link: '/courses/math' },
           { text: 'C语言', link: '/courses/c-language' },
           { text: '数据结构', link: '/courses/data-structure' },
@@ -162,10 +163,21 @@ export default defineConfig({
 
     search: {
       provider: 'local'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/Yonagi04/gzhu-cs-wiki/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
     }
   },
 
   head: [
     ['link', { rel: 'icon', href: '/logo/favicon.png' }]
-  ]
+  ],
+
+  lastUpdated: true,
+
+  sitemap: {
+    hostname: 'https://wiki.yonagi04.cn'
+  }
 })
