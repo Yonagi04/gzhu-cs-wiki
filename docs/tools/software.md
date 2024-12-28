@@ -54,6 +54,12 @@ IntelliJ IDEA 是 Jetbrain 的一款用于 Java 的 IDE，功能强大，开箱�
 
 下载：https://www.jetbrains.com/idea/
 
+### Tabby Terminal
+
+Tabby Terminal 是一款终端软件，可以替代 Windows 的 Powershell、MacOS 的终端。它支持非常多的功能，也有很丰富的插件可供选择。
+
+下载：https://github.com/Eugeny/tabby/
+
 ### 滴答清单
 
 可以用来记录待办事项、管理日程，对于合理安排任务来讲非常有帮助。
@@ -63,6 +69,16 @@ IntelliJ IDEA 是 Jetbrain 的一款用于 Java 的 IDE，功能强大，开箱�
 ### 飞书文档
 
 对，还是飞书文档😂我一般都是用飞书来写文档、管理任务清单、记录简历投递情况的。飞书也有类似于任务日志、待办事项这种功能，但是我觉得不如滴答清单好用。
+
+### IT-TOOLS
+
+很不错的网站，里面基本上涵盖了开发中可以用到的各种小工具。源代码开源在 Github 上。
+
+网站：https://it-tools.tech/
+
+Github：https://github.com/CorentinTh/it-tools
+
+如果源站访问不通的话，可以访问我部署的镜像站点：https://tools.yonagi04.cn/
 
 ---
 

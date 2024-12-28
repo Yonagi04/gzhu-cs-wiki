@@ -78,7 +78,7 @@ export default defineConfig({
         text: '🧑‍💻后端开发',
         collapsed: true,
         items: [
-          { text: '后端开发入门', link: '/backend/beginner' },
+          { text: '后端开发前言', link: '/backend/beginner' },
           { 
             text: 'Java', 
             collapsed: false,
@@ -103,7 +103,7 @@ export default defineConfig({
         text: '👩‍💻前端开发',
         collapsed: true,
         items: [
-          { text: '前端开发入门', link: '/frontend/beginner' },
+          { text: '前端开发前言', link: '/frontend/beginner' },
           { text: '前端开发基础', link: '/frontend/basic' },
           { text: 'Vue技术栈', link: '/frontend/vue' },
           { text: 'React技术栈', link: '/frontend/react' }
@@ -113,10 +113,10 @@ export default defineConfig({
         text: '👨‍💻其他开发方向',
         collapsed: true,
         items: [
-          { text: '前言', link: '/other/other' },
-          { text: '移动端开发', link: '/other/mobile' },
-          { text: '游戏客户端开发', link: '/other/game' },
-          { text: '测试开发/软件测试', link: '/other/test' },
+          { text: '前言', link: '/dev/beginner' },
+          { text: '移动端开发', link: '/dev/mobile' },
+          { text: '游戏客户端开发', link: '/dev/game' },
+          { text: '测试开发/软件测试', link: '/dev/test' },
         ]
       },
       {
@@ -148,6 +148,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '留学入门', link: '/abroad/abroad' }
+        ]
+      },
+      {
+        text: '📌其他',
+        collapsed: true,
+        items: [
+          { text: '哪个食堂最好吃？', link: '/others/food' },
+          { text: '自习地点推荐', link: '/others/study-place' }
         ]
       }
     ],
