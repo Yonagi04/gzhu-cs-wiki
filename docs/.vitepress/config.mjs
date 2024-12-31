@@ -19,9 +19,12 @@ export default defineConfig({
         text: '🎁新手入门',
         collapsed: true,
         items: [
+          { text: '你想要做什么', link: '/beginner/what-do-u-want' },
           { text: '广大计算机专业介绍', link: '/beginner/cs-intro' },
           { text: '可供参考的学习规划', link: '/beginner/study-plan' },
           { text: '转专业方案', link: '/beginner/transfer-plan' },
+          { text: '做值得做的事情', link: '/beginner/do-the-thing-u-need-to-do'},
+          { text: '培养信息素养', link: '/beginner/information-literacy' },
           { text: '如何选课', link: '/beginner/choose-ur-course' },
           { text: '小白如何选择合适的笔记本电脑？', link: '/beginner/choose-ur-laptop' }
         ]
@@ -123,7 +126,8 @@ export default defineConfig({
         text: '🧑‍🔬科研入门',
         collapsed: true,
         items: [
-          { text: '科研入门', link: '/research/research' }
+          { text: '科研入门', link: '/research/research' },
+          { text: '如何选择导师', link: '/research/choose-ur-mentor'}
         ]
       },
       {
