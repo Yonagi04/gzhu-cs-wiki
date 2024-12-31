@@ -22,7 +22,11 @@
 
 首推 B 站的宋浩老师，想必这也是绝大多数同学的选择，讲解非常清楚易懂。如果课后对某个知识点有疑虑，看一下视频课，说不定就能理解了。高数、线代、概率论均有对应的课程。
 
-如果想看图解版的数学教程，可以看看这个 Youtube 网红：[3Blue1Brown](https://www.youtube.com/@3blue1brown)，B站应该有中文翻译和中文配音版。
++ **高数**：https://www.bilibili.com/video/BV1Eb411u7Fw/
++ **线代**：https://www.bilibili.com/video/BV1aW411Q7x1/
++ **概率论**：https://www.bilibili.com/video/BV1ot411y7mU/
+
+如果想看图解版的数学教程，可以看看这个 Youtube 网红：[3Blue1Brown](https://www.youtube.com/@3blue1brown)，B站应该有中文翻译和中文配音版。B 站官方账号：[3Bule1Brown](https://space.bilibili.com/88461692)。
 
 学有余力的同学，可以去 B 站看看考研的视频课。
 
