@@ -134,8 +134,8 @@ export default defineConfig({
         text: '👷工作经验',
         collapsed: true,
         items: [
-          { text: '如何找工作？', link: '/experience/job' },
-          { text: '如何写简历？', link: '/experience/cv' },
+          { text: '如何找工作', link: '/experience/job' },
+          { text: '如何写简历', link: '/experience/cv' },
           { text: '面试经验', link: '/experience/interview' }
         ]
       },
