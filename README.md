@@ -1,3 +1,5 @@
+**本 Wiki 由于运营问题不再继续更新，欢迎继续浏览本 Repository 的内容。The GZHU CS Wiki is Dead.**
+
 # GZHU CS Wiki
 你好，欢迎来到GZHU CS Wiki，广州大学计算机专业学习指南。
 
