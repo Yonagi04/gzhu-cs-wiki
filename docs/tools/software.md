@@ -14,9 +14,9 @@
 
 ### Notion
 
-一款功能全面的笔记软件。同样也支持 Markdown 和 LaTex，但是比 Typora 的功能要多得多。
+一款功能全面的笔记软件。同样也支持 Markdown 和 LaTex，但是比 Typora 的功能要多得多，甚至可以用 Notion 搭建个人网站！
 
-下载：https://typora.io/
+下载：https://www.notion.com/
 
 ### Obsidian
 
@@ -34,7 +34,7 @@ Github：https://github.com/obsidianmd
 
 ### 飞书文档
 
-飞书文档是字节跳动的即时通讯软件“飞书”中的一个功能，同样也支持多端同步，功能和语雀基本类似，是语雀的有力竞争对象。
+飞书文档是字节跳动的即时通讯软件“飞书”中的一个功能，同样也支持多端同步，功能和语雀基本类似，是语雀的有力竞争对象，也是 Notion 的平替。
 
 下载：https://www.feishu.cn/
 
