@@ -157,7 +157,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '哪个食堂最好吃？', link: '/others/food' },
-          { text: '自习地点推荐', link: '/others/study-place' },
+          { text: '自习地点推荐', link: '/others/study-place' }
         ]
       }
     ],

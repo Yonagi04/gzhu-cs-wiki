@@ -83,6 +83,6 @@ gitChangelog: false
 
 ## 还有更多疑问没能解答？
 
-欢迎来加我微信，我会尽力解答你的问题。（请备注班级+姓名）
+请通过电子邮件的方式向我提问，Feel free to ask! 什么都可以问！
 
-![](/images/contact_me.jpg)
+[戳这里给站长发邮件](mailto:katomakotocn@gmail.com)
