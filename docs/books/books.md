@@ -39,7 +39,7 @@
 
 [郭郭——C++ Primer 精读](https://www.bilibili.com/video/BV1B8411K71w)
 
-## Effetive C++
+## Effective C++
 
 在看完 C++ Primer 之后，你应该基本上掌握了 C++ 的语法和语法特性了，但是想把 C++ 写好可不是一件容易的事情！Effective C++ 则是用了 55 个具体案例，告诉读者“怎样的代码才算好代码”、“应该怎么写才能把 C++ 写好”。相信我，读完这本书，你的 C++ 编码功底一定会更上一层楼。
 
