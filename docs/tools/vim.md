@@ -15,7 +15,7 @@ Vim 是在 Linux 系统下的一款编辑器，其学习曲线之陡峭令人望
 
 ## 如何学习 Vim？
 
-首先，请先安装好 [Linux 系统](/tools/linux)。
+首先，请先安装好 [Linux 系统](/tools/linux)，如果你正在使用 Linux 或 MacOS，那就没必要安装了。
 + 简单阅读 [这篇教程](https://github.com/wsdjeg/vim-galore-zh_cn)，可以让你对 Vim 有基本的理解。
 + 在 Linux 的终端中输入 `vimtutor`，用 Vim 自带的练习程序来学习 Vim。
 + 最后就是强制要求自己使用 Vim 进行开发，如果不使用 Vim 的话，IDEA、Visual Studio Code都有配套的插件来模拟 Vim 的键位。
