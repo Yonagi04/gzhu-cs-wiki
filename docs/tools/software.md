@@ -54,6 +54,12 @@ IntelliJ IDEA 是 Jetbrain 的一款用于 Java 的 IDE，功能强大，开箱�
 
 下载：https://www.jetbrains.com/idea/
 
+### Cursor
+
+基于 Visual Studio Code的一款AI IDE，支持Agent智能编码、智能补全等功能，功能十分强大，且在很大程度上可以直接取代 Visual Studio Code，强烈推荐使用。但是由于 Cursor 本身需要收费，且免费版本的用量有限，所以不太适合直接白嫖，建议有财力的同学直接订阅其 Pro 版本，以享受完整的 AI Coding 机能。
+
+下载：https://cursor.com/cn
+
 ### Tabby Terminal
 
 Tabby Terminal 是一款终端软件，可以替代 Windows 的 Powershell、MacOS 的终端。它支持非常多的功能，也有很丰富的插件可供选择。

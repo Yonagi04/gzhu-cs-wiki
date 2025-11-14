@@ -63,8 +63,7 @@ export default defineConfig({
           { text: '计算机网络', link: '/courses/network' },
           { text: '编译原理', link: '/courses/compilation' },
           { text: '数据库', link: '/courses/database' },
-          { text: '软件工程', link: '/courses/software-engineering' },
-          { text: '分布式系统', link: '/courses/distributed-system' },
+          { text: '软件工程', link: '/courses/software-engineering' }
         ]
       },
       {
